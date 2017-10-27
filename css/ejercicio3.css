@@ -1,0 +1,38 @@
+*{/*utilizamos un selector universal para que afecte a todos por igual*/
+
+  text-indent: 10px;
+  height: 90px;
+  font-size: 20px;
+  width: 300px;
+
+}
+
+.yellow {
+  background-color: #FFC300;
+  margin: 0 ;
+  display: inline-block;
+}
+
+.black {
+  background-color:#2E2D2C;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+
+
+
+}
+h1 {
+  color: black ;
+  margin: 0px;
+  padding-top: 5px;
+
+}
+h2  {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+
+}
