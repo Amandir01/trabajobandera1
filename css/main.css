@@ -1,21 +1,30 @@
-div {
-  margin: 10px;
-  height: 100px;
-  padding: 10px;
+* {
+  box-sizing: border-box;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
 }
-.yellow {
-  background-color: #f7b617;
+ul {
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: pink;
 }
-.black {
-  background-color: #000;
-  color: #fff;
+
+li {
+  float: left;
 }
-.small {
-  width: 200px;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
 }
-.inline-block {
-  display: inline-block;
-}
-.inline {
-  display: inline;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+  border: 5px solid black;
 }

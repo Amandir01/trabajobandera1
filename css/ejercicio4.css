@@ -1,0 +1,29 @@
+* {/*utilizamos un selector universal para que afecte a todos por igual*/
+  font-size: 15px;
+  margin-top: 0;
+}
+body {
+width: 100%;
+}
+
+.yellow {
+  background-color: #FFC300;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.black {
+  background-color:#2E2D2C;
+  color:white;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+h1 {
+  color: black ;
+  margin: 10px;
+}
+
+h2  {
+  margin: 10px;
+}
